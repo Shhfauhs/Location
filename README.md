@@ -54,22 +54,27 @@ live_loop :kitty do
 end
 
 z = 1
-
-live_loop :selection do
-  
-  if z == 1
-    sample wha
-    sleep 4
-  elsif z < 3
-    sample yeat
-    sleep 4
-  else
-    print ("Jump out the show")
-    stop
+define :selection do |a|
+  live_loop :samps do
+    
+    if z == 1
+      sample wha, amp: a
+      sleep 4
+    elsif z < 3
+      sample yeat
+      sleep 4
+    else
+      print ("Jump out the show")
+      stop
+    end
+    sleep 1
+    z = z + 1
   end
-  sleep 1
-  z = z + 1
 end
+
+selection 2
+selection 4
+
 sleep 10
 
 wakey 0.3,1,4
@@ -78,4 +83,5 @@ wakey 0.1,0.2,2
 wakey 0,0.1,1
 
 sleep 20
+
 sample molly
