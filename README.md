@@ -3,11 +3,11 @@
 use_bpm 142
 i = 0
 use_synth :piano
-wake = "C:/Users/Luis Rios/Documents/Audacity/sound effect wake up fl1thy.wav"
-control ="C:/Users/Luis Rios/Documents/Audacity/control.wav"
-wha = "C:/Users/Luis Rios/Documents/Audacity/Playboi Carti - WHAT Sound Effect-Adlib.wav"
-yeat = "C:/Users/Luis Rios/Documents/Audacity/Yeat Interview.wav"
-molly = "C:/Users/Luis Rios/Documents/Audacity/Playboi Carti - Molly (sped up).wav"
+wake = "C:/Users/unknown/Documents/Audacity/sound effect wake up fl1thy.wav"
+control ="C:/Users/unknown/Documents/Audacity/control.wav"
+wha = "C:/Users/unknown/Documents/Audacity/Playboi Carti - WHAT Sound Effect-Adlib.wav"
+yeat = "C:/Users/unknown/Documents/Audacity/Yeat Interview.wav"
+molly = "C:/Users/unknown/Documents/Audacity/Playboi Carti - Molly (sped up).wav"
 
 use_bpm 142
 i = 0
